@@ -40,13 +40,16 @@
   }
 }
 .description {
+  background: #2b343d;
   .row {
     box-shadow: 5px 5px 5px #2b323d;
     -moz-box-shadow: 5px 5px 5px #2b323d;
     -o-box-shadow: 5px 5px 5px #2b323d;
     -ms-box-shadow: 5px 5px 5px #2b323d;
   }
-  background: #2b343d;
+  .card {
+    margin: 0;
+  }
   .card-content{
     padding: 20px;
   }
