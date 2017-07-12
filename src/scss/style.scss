@@ -12,10 +12,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-
   .row {
     margin: 0 auto;
-    height: 250px;
   }
   &__title {
     h1 {
@@ -73,8 +71,10 @@
   background: url('../images/pic05.jpg') center;
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
   height: 350px;
+  .row {
+    margin: 0 auto;
+  }
   .col .transparent {
     margin-top: 20px;
     border: 2px solid #fff;
@@ -82,9 +82,10 @@
 }
 .footer {
   background: #2b343d;
+  height: 70px;
   a{
     color: #fff;
-    margin-right: 10px;
+  margin-right: 10px;
   }
 }
 
@@ -100,11 +101,14 @@
     background: url('../images/banner.jpg') center;
     background-size: cover;
     background-repeat:repeat;
-    text-align: center;
     height: 350px;
+    .row {
+      margin: 0 auto;
+    }
     .col .transparent {
       margin-top: 20px;
       border: 2px solid #fff;
     }
+
   }
 }
