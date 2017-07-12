@@ -22,13 +22,14 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center; }
-  .home .row {
-    margin: 0 auto; }
   .home__title h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 21px;
+    font-weight: 600;
     border-bottom: 2px solid #fff;
     border-top: 2px solid #fff; }
+  .home__title h2 {
+    font-size: 1.3rem; }
 
 .adoption {
   background: #21b2a6;
@@ -36,7 +37,7 @@ li {
   .adoption .paragraph h5 {
     border-bottom: 1px solid #546e7a; }
   .adoption .icon__item img {
-    width: 80px; }
+    width: 50px; }
 
 .description {
   background: #2b343d; }
@@ -83,7 +84,11 @@ li {
   .home {
     background: url("../images/banner.jpg") center;
     height: 100vh;
-    background-size: cover; }
+    background-size: cover;
+    justify-content: center; }
+
+  .adoption .icon__item img {
+    width: 80px; }
 
   .adopte {
     background: url("../images/banner.jpg") center;

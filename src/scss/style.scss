@@ -1,6 +1,4 @@
-// @import "variables";
 @import 'reset';
-// @import "grid";
 .row {
   margin: 0;
 }
@@ -12,15 +10,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  .row {
-    margin: 0 auto;
-  }
   &__title {
     h1 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       padding: 21px;
+      font-weight: 600;
       border-bottom: 2px solid #fff;
       border-top: 2px solid #fff;
+    }
+    h2 {
+      font-size: 1.3rem;
     }
   }
 }
@@ -35,7 +34,7 @@
   }
   .icon{
     &__item img{
-      width: 80px;
+      width: 50px;
     }
   }
 }
@@ -98,8 +97,15 @@
     background: url('../images/banner.jpg') center;
     height: 100vh;
     background-size: cover;
+    justify-content: center;
   }
-
+  .adoption {
+    .icon{
+      &__item img{
+        width: 80px;
+      }
+    }
+  }
   .adopte {
     background: url('../images/banner.jpg') center;
     background-size: cover;
