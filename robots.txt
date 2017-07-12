@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://puppy-love-app.herokuapp.com/sitemap.xml
